@@ -15,3 +15,31 @@ Welcome to the **Trivedya Multiple Disease Detection System**! This web applicat
 - **Streamlit**: Web application framework
 - **Scikit-Learn**: Machine Learning library
 - **Numpy & Pandas**: Data manipulation
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aryan-Diggal/Multiple-Disease-Detection-Web-App.git
+   cd Multiple-Disease-Detection-Web-App
+   ```
+
+2. **Install dependencies:**
+   Make sure you have Python installed. Then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the application:**
+   ```bash
+   python -m streamlit run app.py
+   ```
+
+## 🧠 How it Works
+1. Select the disease you want to test for from the sidebar menu.
+2. Input the patient's medical details in the provided fields.
+3. Click the "Run Test" button.
+4. The system will process the input through the respective saved `.sav` model and display whether the person is at risk.
+
+## 📝 License
+This project is open-source and available for educational and research purposes.
