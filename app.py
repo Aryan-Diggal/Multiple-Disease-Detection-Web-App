@@ -93,9 +93,9 @@ with st.sidebar:
                           menu_icon="cast",
                           default_index=0,
                           styles={
-                              "container": {"padding": "5!important", "background-color": "#fafafa"},
+                              "container": {"padding": "5!important", "background-color": "transparent"},
                               "icon": {"color": "#4CAF50", "font-size": "25px"}, 
-                              "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+                              "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "rgba(76, 175, 80, 0.1)"},
                               "nav-link-selected": {"background-color": "#4CAF50"},
                           })
     
